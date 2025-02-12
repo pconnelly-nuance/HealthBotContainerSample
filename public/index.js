@@ -116,7 +116,7 @@ function initBotConversation() {
 
                             // Use the following activity to proactively invoke a bot scenario
                             triggeredScenario: {
-                                trigger: "HealthcareAssistant1",
+                                trigger: "HealthcareAssistantStaging",
                                 args: {
                                     location: location,
                                     // myVar1: "{custom_arg_1}",
